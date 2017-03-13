@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		972E43F21C06393C0089875F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43F11C06393C0089875F /* GoogleMobileAds.framework */; };
+		972E43F41C06395A0089875F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43F31C06395A0089875F /* AdSupport.framework */; };
+		972E43F61C06396C0089875F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43F51C06396C0089875F /* AudioToolbox.framework */; };
+		972E43F81C06397A0089875F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43F71C06397A0089875F /* AVFoundation.framework */; };
+		972E43FA1C06398A0089875F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43F91C06398A0089875F /* CoreGraphics.framework */; };
+		972E43FC1C06399E0089875F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43FB1C06399E0089875F /* CoreTelephony.framework */; };
+		972E43FF1C0639AF0089875F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43FD1C0639AF0089875F /* EventKit.framework */; };
+		972E44001C0639AF0089875F /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E43FE1C0639AF0089875F /* EventKitUI.framework */; };
+		972E44021C0639BF0089875F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E44011C0639BF0089875F /* MessageUI.framework */; };
+		972E44061C0639DD0089875F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E44051C0639DD0089875F /* SystemConfiguration.framework */; };
+		97D68E781BFFBF5B00E5941D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D68E771BFFBF5B00E5941D /* Assets.xcassets */; };
 		97E652A81BFA2F4500E70CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E652A71BFA2F4500E70CCA /* AppDelegate.swift */; };
-		97E652AA1BFA2F4500E70CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E652A91BFA2F4500E70CCA /* ViewController.swift */; };
+		97E652AA1BFA2F4500E70CCA /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E652A91BFA2F4500E70CCA /* EditViewController.swift */; };
 		97E652AD1BFA2F4500E70CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E652AB1BFA2F4500E70CCA /* Main.storyboard */; };
-		97E652AF1BFA2F4500E70CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E652AE1BFA2F4500E70CCA /* Assets.xcassets */; };
 		97E652B21BFA2F4500E70CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E652B01BFA2F4500E70CCA /* LaunchScreen.storyboard */; };
 		97E652BD1BFA2F4500E70CCA /* Cartoon_Your_BodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E652BC1BFA2F4500E70CCA /* Cartoon_Your_BodyTests.swift */; };
 		97E652C81BFA2F4500E70CCA /* Cartoon_Your_BodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E652C71BFA2F4500E70CCA /* Cartoon_Your_BodyUITests.swift */; };
+		97E652D61BFA330700E70CCA /* SelectCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E652D51BFA330700E70CCA /* SelectCharacterViewController.swift */; };
+		97EC9E821BFF9DDA0028B82D /* Cartoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC9E811BFF9DDA0028B82D /* Cartoon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		972E43F11C06393C0089875F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "SDKs/GoogleMobileAdsSdkiOS-7.5.2/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		972E43F31C06395A0089875F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		972E43F51C06396C0089875F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		972E43F71C06397A0089875F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		972E43F91C06398A0089875F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		972E43FB1C06399E0089875F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		972E43FD1C0639AF0089875F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		972E43FE1C0639AF0089875F /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		972E44011C0639BF0089875F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		972E44051C0639DD0089875F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		97D68E771BFFBF5B00E5941D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E652A41BFA2F4500E70CCA /* Cartoon Your Body.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cartoon Your Body.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E652A71BFA2F4500E70CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97E652A91BFA2F4500E70CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97E652A91BFA2F4500E70CCA /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		97E652AC1BFA2F4500E70CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97E652AE1BFA2F4500E70CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E652B11BFA2F4500E70CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97E652B31BFA2F4500E70CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97E652B81BFA2F4500E70CCA /* Cartoon Your BodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartoon Your BodyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +69,8 @@
 		97E652C31BFA2F4500E70CCA /* Cartoon Your BodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartoon Your BodyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E652C71BFA2F4500E70CCA /* Cartoon_Your_BodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartoon_Your_BodyUITests.swift; sourceTree = "<group>"; };
 		97E652C91BFA2F4500E70CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E652D51BFA330700E70CCA /* SelectCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCharacterViewController.swift; sourceTree = "<group>"; };
+		97EC9E811BFF9DDA0028B82D /* Cartoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cartoon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972E44061C0639DD0089875F /* SystemConfiguration.framework in Frameworks */,
+				972E44021C0639BF0089875F /* MessageUI.framework in Frameworks */,
+				972E43FF1C0639AF0089875F /* EventKit.framework in Frameworks */,
+				972E44001C0639AF0089875F /* EventKitUI.framework in Frameworks */,
+				972E43FC1C06399E0089875F /* CoreTelephony.framework in Frameworks */,
+				972E43FA1C06398A0089875F /* CoreGraphics.framework in Frameworks */,
+				972E43F81C06397A0089875F /* AVFoundation.framework in Frameworks */,
+				972E43F61C06396C0089875F /* AudioToolbox.framework in Frameworks */,
+				972E43F41C06395A0089875F /* AdSupport.framework in Frameworks */,
+				972E43F21C06393C0089875F /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9721AA761C08B92B007BCF08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				972E44051C0639DD0089875F /* SystemConfiguration.framework */,
+				972E44011C0639BF0089875F /* MessageUI.framework */,
+				972E43FD1C0639AF0089875F /* EventKit.framework */,
+				972E43FE1C0639AF0089875F /* EventKitUI.framework */,
+				972E43FB1C06399E0089875F /* CoreTelephony.framework */,
+				972E43F91C06398A0089875F /* CoreGraphics.framework */,
+				972E43F71C06397A0089875F /* AVFoundation.framework */,
+				972E43F51C06396C0089875F /* AudioToolbox.framework */,
+				972E43F31C06395A0089875F /* AdSupport.framework */,
+				972E43F11C06393C0089875F /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97E6529B1BFA2F4500E70CCA = {
 			isa = PBXGroup;
 			children = (
 				97E652A61BFA2F4500E70CCA /* Cartoon Your Body */,
 				97E652BB1BFA2F4500E70CCA /* Cartoon Your BodyTests */,
 				97E652C61BFA2F4500E70CCA /* Cartoon Your BodyUITests */,
+				9721AA761C08B92B007BCF08 /* Frameworks */,
 				97E652A51BFA2F4500E70CCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,10 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				97E652A71BFA2F4500E70CCA /* AppDelegate.swift */,
-				97E652A91BFA2F4500E70CCA /* ViewController.swift */,
+				97EC9E811BFF9DDA0028B82D /* Cartoon.swift */,
+				97E652A91BFA2F4500E70CCA /* EditViewController.swift */,
+				97E652D51BFA330700E70CCA /* SelectCharacterViewController.swift */,
 				97E652AB1BFA2F4500E70CCA /* Main.storyboard */,
-				97E652AE1BFA2F4500E70CCA /* Assets.xcassets */,
 				97E652B01BFA2F4500E70CCA /* LaunchScreen.storyboard */,
+				97D68E771BFFBF5B00E5941D /* Assets.xcassets */,
 				97E652B31BFA2F4500E70CCA /* Info.plist */,
 			);
 			path = "Cartoon Your Body";
@@ -193,6 +247,12 @@
 				TargetAttributes = {
 					97E652A31BFA2F4500E70CCA = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3868R47FWS;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					97E652B71BFA2F4500E70CCA = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -229,8 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D68E781BFFBF5B00E5941D /* Assets.xcassets in Resources */,
 				97E652B21BFA2F4500E70CCA /* LaunchScreen.storyboard in Resources */,
-				97E652AF1BFA2F4500E70CCA /* Assets.xcassets in Resources */,
 				97E652AD1BFA2F4500E70CCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97E652AA1BFA2F4500E70CCA /* ViewController.swift in Sources */,
+				97E652D61BFA330700E70CCA /* SelectCharacterViewController.swift in Sources */,
+				97E652AA1BFA2F4500E70CCA /* EditViewController.swift in Sources */,
+				97EC9E821BFF9DDA0028B82D /* Cartoon.swift in Sources */,
 				97E652A81BFA2F4500E70CCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +459,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/GoogleMobileAdsSdkiOS-7.5.2",
+				);
 				INFOPLIST_FILE = "Cartoon Your Body/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ioannisdaratzikis.Cartoon-Your-Body";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioannisdaratzikis.cartoonyourbody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,10 +480,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/GoogleMobileAdsSdkiOS-7.5.2",
+				);
 				INFOPLIST_FILE = "Cartoon Your Body/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ioannisdaratzikis.Cartoon-Your-Body";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioannisdaratzikis.cartoonyourbody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -482,6 +564,7 @@
 				97E652CE1BFA2F4500E70CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97E652CF1BFA2F4500E70CCA /* Build configuration list for PBXNativeTarget "Cartoon Your BodyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +573,7 @@
 				97E652D11BFA2F4500E70CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97E652D21BFA2F4500E70CCA /* Build configuration list for PBXNativeTarget "Cartoon Your BodyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +582,7 @@
 				97E652D41BFA2F4500E70CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
